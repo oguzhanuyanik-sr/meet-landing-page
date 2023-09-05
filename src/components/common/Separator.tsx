@@ -1,6 +1,8 @@
-type Props = {};
+type SeparatorProps = {
+  num: string;
+};
 
-const Separator = ({ num }: Props) => {
+const Separator = ({ num }: SeparatorProps) => {
   return (
     <div className='container flex flex-col items-center mt-16'>
       <div className='w-[1px] h-[84px] border-l border-lightGray'></div>

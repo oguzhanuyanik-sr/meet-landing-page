@@ -1,8 +1,13 @@
 import { Link } from 'react-router-dom';
 
-type Props = {};
+type ButtonProps = {
+  title: string;
+  subtitle?: string;
+  color: string;
+  url: string;
+};
 
-const Button = ({ title, subtitle, color, url }: Props) => {
+const Button = ({ title, subtitle, color, url }: ButtonProps) => {
   return (
     <Link
       to={url}

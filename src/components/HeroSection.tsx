@@ -2,9 +2,7 @@ import { HeroLeft, HeroRight } from '../utils/constants';
 import Button from './common/Button';
 import Separator from './common/Separator';
 
-type Props = {};
-
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <main className='lg:flex lg:flex-col lg:items-center 2xl:container'>
       <div className='w-full flex justify-center mt-14 sm:mt-16 mb-12 sm:mb-20 lg:hidden'>

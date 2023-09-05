@@ -1,8 +1,6 @@
 import { featureData } from '../utils/constants';
 
-type Props = {};
-
-const FeatureSection = (props: Props) => {
+const FeatureSection = () => {
   return (
     <section className='container flex flex-col items-center'>
       <div className='flex flex-wrap justify-between mt-16 mb-12 sm:mb-6'>
