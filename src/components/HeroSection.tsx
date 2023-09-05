@@ -44,7 +44,7 @@ const HeroSection = () => {
           alt='Hero Image'
         />
       </div>
-      <Separator num={'1'} />
+      <Separator num={1} />
     </main>
   );
 };

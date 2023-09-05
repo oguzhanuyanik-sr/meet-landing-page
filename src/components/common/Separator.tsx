@@ -1,5 +1,5 @@
 type SeparatorProps = {
-  num: string;
+  num: number;
 };
 
 const Separator = ({ num }: SeparatorProps) => {

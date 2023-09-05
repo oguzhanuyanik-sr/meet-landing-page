@@ -6,9 +6,7 @@ import {
   FooterDesktopImage,
 } from '../utils/constants';
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <footer className='relative bg-ghostBlue flex flex-col items-center mt-[180px] pt-[100px] pb-[70px] px-[40px] text-center'>
       <div className='absolute top-[-175px]'>
