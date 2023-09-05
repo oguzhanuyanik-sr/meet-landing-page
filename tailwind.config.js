@@ -7,16 +7,22 @@ export default {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      '2xl': '1921px',
     },
     colors: {
-      blue: '#66E2DC',
-      orange: '#FA7453',
-      lightOrange: '#FFB964',
-      white: '#FCFAF9',
-      dark: '#191826',
+      blue: '#4D96A9',
+      softBlue: '#71C0D4',
+      lightBlue: '#8FE3F9',
+      ghostBlue: 'rgba(77, 150, 169, 0.7)',
+      purple: '#855FB1',
+      softPurple: '#B18BDD',
+      lightPurple: '#D9B8FF',
+      gray: '#28283D',
+      lightGray: '#87879D',
+      white: '#FAFAFA'
     },
     fontFamily: {
-      plex: ['IBM Plex Sans', 'sans-serif'],
+      redHat: ['Red Hat Display', 'sans-serif'],
     },
     extend: {},
     container: {
